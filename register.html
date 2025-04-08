@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin: 8px 0 4px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <!-- Name -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+        <!-- Class -->
+        <label for="class">Class:</label>
+        <input type="text" id="class" name="class" required placeholder="Enter your class">
+
+        <!-- Section -->
+        <label for="section">Section:</label>
+        <input type="text" id="section" name="section" required placeholder="Enter your section">
+
+        <!-- Address -->
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4" required placeholder="Enter your address"></textarea>
+
+        <!-- Skillset -->
+        <label for="skillset">Skillset:</label>
+        <input type="text" id="skillset" name="skillset" required placeholder="Enter your skillset (e.g., HTML, CSS, JavaScript)">
+
+        <!-- College -->
+        <label for="college">College:</label>
+        <input type="text" id="college" name="college" required placeholder="Enter your college name">
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+</body>
+</html>
+
